@@ -39,6 +39,14 @@ const Location = () => {
               >
                 Open in Google Maps
               </a>
+              <a
+                href="https://waze.com/ul?q=5003+16th+Avenue+NW+Calgary&navigate=yes"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-blue-500 text-white px-6 py-2 rounded-lg"
+              >
+                Open in Waze
+              </a>
             </div>
 
             <div className="mt-6">
