@@ -7,10 +7,9 @@ const Hero = () => {
         className="absolute inset-0"
         style={{
           backgroundImage: "url('/jesus-silhouette.jpg')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
+          backgroundPosition: "center center",
           backgroundRepeat: "no-repeat",
-          backgroundAttachment: "fixed",
+          backgroundSize: "cover",
         }}
       />
       <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
@@ -18,9 +17,13 @@ const Hero = () => {
           The Radical Teachings of Jesus
         </h1>
         <p className="text-xl md:text-2xl mb-8">
-          Join us to explore the timeless messages of love, forgiveness, and hope
+          Join us to explore the timeless messages of love, forgiveness, and
+          hope
         </p>
-        <a href="#contact-form" className="bg-yellow-500 text-slate-900 px-8 py-3 rounded-lg inline-block">
+        <a
+          href="#contact-form"
+          className="bg-yellow-500 text-slate-900 px-8 py-3 rounded-lg inline-block"
+        >
           Contact Us
         </a>
       </div>
