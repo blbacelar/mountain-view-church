@@ -2,10 +2,11 @@ import React from "react";
 
 const YouTubeVideo = () => {
   return (
-    <section className="py-16 px-4">
+    <section className="py-16 px-4 bg-slate-800/50">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-center text-white mb-8">
-          Promo Video
+          Join us as we explore these timeless teachings that continue to
+          transform lives.
         </h2>
         <div className="relative w-full" style={{ paddingTop: "56.25%" }}>
           <iframe
@@ -16,9 +17,7 @@ const YouTubeVideo = () => {
             allowFullScreen
           />
         </div>
-        <p className="text-gray-300 text-center mt-4">
-          Join us for our weekly service
-        </p>
+        <p className="mt-4 text-center text-yellow-500 font-semibold"></p>
       </div>
     </section>
   );
