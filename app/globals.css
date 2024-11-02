@@ -24,3 +24,19 @@ body {
   height: 100%;
   width: 100%;
 }
+
+/* Add this to your global.css file */
+.hero-background {
+  position: absolute;
+  inset: 0;
+  background-image: url("/jesus-silhouette.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .hero-background {
+    background-image: url("/jesus-silhouette_mobile.jpg");
+  }
+}
