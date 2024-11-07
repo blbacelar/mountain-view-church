@@ -2,22 +2,22 @@ import React from "react";
 
 const events = [
   {
-    date: "November 1st",
+    date: "November 8th",
     day: "Friday",
     time: "7:00 PM",
-    title: "The Source of Jesus's Teachings – The Bible",
+    title: "Why is there so much suffering?",
   },
   {
-    date: "November 2nd",
+    date: "November 9th",
     day: "Saturday",
     time: "7:00 PM",
-    title: "What Jesus Said About His Imminent Return",
+    title: "What happens when we die?",
   },
   {
-    date: "November 3rd",
+    date: "November 10th",
     day: "Sunday",
     time: "7:00 PM",
-    title: "What Jesus Said About Being Saved",
+    title: "How is evil eradicated?",
   },
 ];
 
