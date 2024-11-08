@@ -15,9 +15,33 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "The Radical Teachings of Jesus | November 2024",
+  // Make title more descriptive and keyword-rich
+  title: "The Radical Teachings of Jesus | November 2024 Conference & Events",
+  // Expand description with more relevant keywords and details
   description:
-    "Join us for an exploration of Jesus's radical teachings every weekend of November 2024",
+    "Join our transformative conference exploring Jesus's radical teachings every weekend of November 2024. Featuring expert speakers, interactive workshops, and community discussions on faith, social justice, and spiritual growth.",
+  // Add additional metadata
+  keywords:
+    "Jesus teachings, radical Christianity, faith conference, spiritual events, November 2024, religious workshops",
+  openGraph: {
+    title: "The Radical Teachings of Jesus | November 2024 Conference & Events",
+    description:
+      "Join our transformative conference exploring Jesus's radical teachings every weekend of November 2024. Featuring expert speakers, interactive workshops, and community discussions.",
+    type: "website",
+    locale: "en_US",
+    url: "https://mountain-view-sda.vercel.app/",
+    siteName: "The Radical Teachings Conference",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "The Radical Teachings of Jesus | November 2024",
+    description:
+      "Join our transformative conference exploring Jesus's radical teachings every weekend of November 2024.",
+  },
+  // Add canonical URL to prevent duplicate content issues
+  alternates: {
+    canonical: "https://mountain-view-sda.vercel.app/",
+  },
 };
 
 export default function RootLayout({
