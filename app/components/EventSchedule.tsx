@@ -2,22 +2,22 @@ import React from "react";
 
 const events = [
   {
-    date: "November 8th",
+    date: "November 15th",
     day: "Friday",
     time: "7:00 PM",
-    title: "Why is there so much suffering?",
+    title: "Creation",
   },
   {
-    date: "November 9th",
+    date: "November 16th",
     day: "Saturday",
     time: "7:00 PM",
-    title: "What happens when we die?",
+    title: "Sabbath",
   },
   {
-    date: "November 10th",
+    date: "November 17th",
     day: "Sunday",
     time: "7:00 PM",
-    title: "How is evil eradicated?",
+    title: "His Church",
   },
 ];
 
